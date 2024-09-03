@@ -10,4 +10,8 @@ document.getElementById('stop-recording').addEventListener('click', () => {
     document.getElementById('status').textContent = 'Parado. Processando resumo...';
     document.getElementById('start-recording').disabled = false;
     document.getElementById('stop-recording').disabled = true;
+<<<<<<< Updated upstream
 });
+=======
+});
+>>>>>>> Stashed changes
