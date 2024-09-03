@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1,
   "name": "Minha Extensão",
   "version": "1.0",
   "description": "Extensão do Chrome para capturar áudio de reuniões, transcrever e gerar resumos automáticos.",
