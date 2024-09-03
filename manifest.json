@@ -1,9 +1,21 @@
 {
   "manifest_version": 1,
+<<<<<<< Updated upstream
   "name": "Minha Extensão",
   "version": "1.0",
   "description": "Extensão do Chrome para capturar áudio de reuniões, transcrever e gerar resumos automáticos.",
    "permissions": ["storage", "activeTab", "scripting", "microphone"],
+=======
+  "name": "Assistente de Resumo de Reuniões",
+  "version": "1.0",
+  "description": "Extensão do Chrome para capturar áudio de reuniões, transcrever e gerar resumos automáticos.",
+  "permissions": ["storage", "activeTab", "scripting", "microphone"],
+  "icons": {
+    "16": "src/icons/icon16.png",
+    "48": "src/icons/icon48.png",
+    "128": "src/icons/icon128.png"
+  },
+>>>>>>> Stashed changes
   "action": {
     "default_popup": "src/popup.html",
     "default_icon": {
@@ -11,5 +23,8 @@
       "48": "src/icons/icon48.png",
       "128": "src/icons/icon128.png"
     }
+  },
+  "background": {
+    "service_worker": "src/js/background.js"
   }
 }
