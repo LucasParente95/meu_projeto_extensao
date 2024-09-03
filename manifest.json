@@ -1,15 +1,15 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1,
   "name": "Minha Extensão",
   "version": "1.0",
-  "description": "Descrição da extensão.",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "description": "Extensão do Chrome para capturar áudio de reuniões, transcrever e gerar resumos automáticos.",
+   "permissions": ["storage", "activeTab", "scripting", "microphone"],
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "16": "src/icons/icon16.png",
+      "48": "src/icons/icon48.png",
+      "128": "src/icons/icon128.png"
     }
   }
 }
