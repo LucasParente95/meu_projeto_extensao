@@ -1,18 +1,28 @@
-=======
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resumo de Reuniões</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Assistente de Resumo de Vídeos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Assistente de Resumo</h1>
-    <button id="start-recording">Iniciar Gravação</button>
-    <button id="stop-recording" disabled>Parar Gravação</button>
-    <p id="status">Pronto para capturar o áudio da reunião.</p>
-    <script src="js/popup.js"></script>
+    <div class="container">
+        <h1>Assistente de Resumo de Vídeos</h1>
+        <p>Capture o áudio de vídeos e gere resumos automaticamente.</p>
+
+        <div class="status">
+            <span id="status">Status: Pronto para capturar</span>
+        </div>
+
+        <button id="start">Iniciar Captura</button>
+        <button id="stop">Parar Captura</button>
+
+        <div class="summary">
+            <h3>Resumo Gerado:</h3>
+            <textarea id="summary" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
->>>>>>> Stashed changes
