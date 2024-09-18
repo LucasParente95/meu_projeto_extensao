@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Uma extensão que gera resumos automáticos de vídeos a partir de suas transcrições.",
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "src/popup.html",
         "default_icon": {
             "16": "src/imgs/icon16.png",
             "48": "src/imgs/icon48.png",
