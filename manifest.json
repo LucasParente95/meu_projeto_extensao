@@ -1,9 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Assistente de Resumo de Vídeos",
+    "name": "Resumo de Vídeos",
     "version": "1.0",
-    "description": "Uma extensão para capturar o áudio de vídeos e gerar resumos automáticos.",
-    "permissions": ["storage", "activeTab", "scripting"],
+    "description": "Uma extensão que gera resumos automáticos de vídeos a partir de suas transcrições.",
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -11,4 +10,6 @@
             "48": "imgs/icon48.png",
             "128": "imgs/icon128.png"
         }
+    },
+    "permissions": ["storage", "activeTab"]
 }
