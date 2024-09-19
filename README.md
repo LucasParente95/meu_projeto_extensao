@@ -9,18 +9,26 @@ A extensão **Resumo de Vídeos** para Google Chrome ajuda a gerar automaticamen
 
 ## 📂 Estrutura do Projeto
 ```
-resumo-de-video/
+meu_projeto_extensao/
 │
-├── imgs/               # Pasta contendo os ícones da extensão
-│   ├── icon128.png
-│   ├── icon48.png
-│   └── icon16.png
-│
+├── README.md           # Este arquivo de documentação
 ├── manifest.json       # Arquivo de configuração da extensão do Chrome
-├── popup.html          # HTML da interface do popup
-├── script.js           # Lógica principal para resumo de vídeos em JavaScript
-├── styles.css          # CSS para estilizar a interface do popup
-└── README.md           # Este arquivo de documentação
+├── MODELO DE BACKLOG DO PRODUTO - Lucas Parente.pdf      # Documento PDF com regras de uso da extensão
+│
+├── src/                # Diretório de arquivos fonte da extensão
+│   ├── popup.html      # HTML da interface do popup
+│   │
+│   ├── css/            # Diretório de arquivos CSS
+│   │   └── style.css   # Estilo da interface do popup
+│   │
+│   ├── js/             # Diretório de arquivos JavaScript
+│   │   └── script.js   # Lógica da extensão
+│   │
+│   └── imgs/           # Diretório de imagens usadas na extensão
+│       ├── icon128.png
+│       ├── icon48.png
+│       └── icon16.png
+
 ```
 
 ## 🚀 Como Instalar Localmente
@@ -41,9 +49,6 @@ resumo-de-video/
 - Melhorar o **algoritmo de geração de resumos** para obter visões mais detalhadas e precisas.
 - Incluir **transcrição baseada em áudio** para vídeos sem legendas.
 - Adicionar a opção de **baixar resumos** como arquivos de texto.
-
-## 📜 Licença
-Este projeto está licenciado sob a **Licença MIT**. Para mais detalhes, consulte o arquivo `LICENSE`.
 
 ---
 
